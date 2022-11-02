@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.folderContainer{
+    /* margin: 0 auto; */
+    width: 100%;
+    background-color: rgb(31, 28, 43);
+    /* height: 350px; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.folderWrap{
+    background-color: bisque;
+    width: 700px;
+    height: 300px;
+    margin:0 auto;
+}
+.folderWrap h1{
+    margin-left: 21%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.fbtn{
+    height: 40px;
+    width: 100px;
+}
